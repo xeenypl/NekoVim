@@ -42,6 +42,7 @@ require('packer').startup(function(use)
     use 'TimUntersberger/neogit'
     -- Git signe.
     use 'lewis6991/gitsigns.nvim'
+    use 'sindrets/diffview.nvim'
     -- TreeSiter
     use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
     -- Automaticly closr paretasis.
