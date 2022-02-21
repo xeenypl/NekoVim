@@ -49,8 +49,6 @@ require('packer').startup(function(use)
     use 'windwp/nvim-autopairs'
     -- Automaticly closr Html tags.
     use 'windwp/nvim-ts-autotag'
-    -- Color maching paretasis.
-    use 'p00f/nvim-ts-rainbow'
     -- Light fzf finer.
     use 'ibhagwan/fzf-lua'
     -- Drop in Terninal 
